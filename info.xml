@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="net.ourpowerbase.search.eventcount" type="module">
+  <file>eventcount</file>
+  <name>Event Count</name>
+  <description>Find contacts based on number of events they have attended</description>
+  <license>GPL v3 or later</license>
+  <maintainer>
+    <author>Jamie McClelland/Progressive Technology Project</author>
+    <email>jamie@progressivetech.org</email>
+  </maintainer>
+  <releaseDate>2013-05-20</releaseDate>
+  <version>0.1</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.3</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <civix>
+    <namespace>CRM/Eventcount</namespace>
+  </civix>
+</extension>
