@@ -221,7 +221,7 @@ class CRM_Eventcount_Form_Search_EventCount extends CRM_Contact_Form_Search_Cust
       return $dao->N;
     }
        
-    function contactIDs( $offset = 0, $rowcount = 0, $sort = null) { 
+    function contactIDs( $offset = 0, $rowcount = 0, $sort = null, $returnSQL = false) { 
       $this->initialize();
       return $this->all( $offset, $rowcount, $sort, false, true );
     }
